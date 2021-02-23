@@ -29,7 +29,7 @@ public class TestBaseClass {
 	ExtentReports report;
 	public ExtentTest logger;
 	
-	
+	// This is Base class, changes made by me.
 	@BeforeSuite
 	public  void setupSuite()
 	{
