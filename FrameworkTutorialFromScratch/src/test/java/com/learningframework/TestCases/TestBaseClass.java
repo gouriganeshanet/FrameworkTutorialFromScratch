@@ -45,11 +45,7 @@ public class TestBaseClass {
 		Reporter.log("Setting up is complete ", true);
 	}
 	
-	
-	
-	
-	
-	
+		
 	@BeforeClass
 	public void  browserStartup()
 	
@@ -97,8 +93,6 @@ public class TestBaseClass {
 		//HelperUtility.screenshotCapture(driver);
 		BrowserFactory.quitBrowser(driver);
 	}
-	
-	
 	
 
 }
