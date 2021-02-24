@@ -14,8 +14,8 @@ public class CRMLoginPage {
 		 this.driver = ldriver;
 	 }
 	
-	 @FindBy(name = "email1") WebElement userenteringname;
-	 @FindBy(name = "password1") WebElement userenteringpassword;
+	 @FindBy(name = "email") WebElement userenteringname;
+	 @FindBy(name = "password") WebElement userenteringpassword;
 	 @FindBy(xpath = "//div[contains(text(), \"Login\")]") WebElement loginButton;
 	 
 	 
