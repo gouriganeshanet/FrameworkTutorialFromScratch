@@ -46,14 +46,14 @@ public class TestBaseClass {
 		Reporter.log("Setting up is complete ", true);
 	}
 	
-	@Parameters({"Browser",  "URL"})
+//	@Parameters({"Browser",  "URL"})
 	@BeforeClass 
-	public void  browserStartup(String Browser, String URL)
+	public void  browserStartup()
 	
 	{
 		Reporter.log("Browser is getting ready to started", true);
-	//	driver =BrowserFactory.startApplication( driver, config.getBrowserDatafromConfig(), config.getStagingUrlFromConfig());
-		driver =BrowserFactory.startApplication( driver, Browser, URL);
+		driver =BrowserFactory.startApplication( driver, config.getBrowserDatafromConfig(), config.getStagingUrlFromConfig());
+		//driver =BrowserFactory.startApplication( driver, Browser, URL);
 		
 		//System.out.println(driver.getTitle());
 		
